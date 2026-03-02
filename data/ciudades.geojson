@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+  
+
+    {
+      "type": "Feature",
+      "properties": { "nombre": "ATLÁNTICO", "tipo": "departamento" },
+      "geometry": { "type": "Point", "coordinates": [-75.10, 10.60] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "BOLÍVAR", "tipo": "departamento" },
+      "geometry": { "type": "Point", "coordinates": [-75.15, 9.62] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "CESAR", "tipo": "departamento" },
+      "geometry": { "type": "Point", "coordinates": [-73.50, 9.24] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "CÓRDOBA", "tipo": "departamento" },
+      "geometry": { "type": "Point", "coordinates": [-75.88, 8.75] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "LA GUAJIRA", "tipo": "departamento" },
+      "geometry": { "type": "Point", "coordinates": [-72.91, 11.30] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nombre": "SUCRE", "tipo": "departamento" },
+      "geometry": { "type": "Point", "coordinates": [-75.40, 9.30] }
+    },
+    
+
+
+    { "type": "Feature", "properties": { "nombre": "Barranquilla", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-74.95, 10.90] }},
+    { "type": "Feature", "properties": { "nombre": "Santa Marta", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-74.20, 11.17] }},
+    { "type": "Feature", "properties": { "nombre": "Pivijay", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-74.62, 10.38] }},
+    { "type": "Feature", "properties": { "nombre": "Fundación", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-74.18, 10.45] }},
+    { "type": "Feature", "properties": { "nombre": "Plato", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-74.80, 9.68] }},
+    { "type": "Feature", "properties": { "nombre": "El Banco", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-73.98, 8.87] }},
+    { "type": "Feature", "properties": { "nombre": "Riohacha", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-72.91, 11.43] }},
+    { "type": "Feature", "properties": { "nombre": "Albania", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-72.60, 11.08] }},
+    { "type": "Feature", "properties": { "nombre": "San Juan del Cesar", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-73.07, 10.70] }},
+    { "type": "Feature", "properties": { "nombre": "Valledupar", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-73.32, 10.40] }},
+    { "type": "Feature", "properties": { "nombre": "Bosconia", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-73.89, 9.90] }},
+    { "type": "Feature", "properties": { "nombre": "La Jagua de Ibirico", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-73.33, 9.56] }},
+    { "type": "Feature", "properties": { "nombre": "Curumaní", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-73.54, 9.10] }},
+    { "type": "Feature", "properties": { "nombre": "Cartagena", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-75.51, 10.32] }},
+    { "type": "Feature", "properties": { "nombre": "Arjona", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-75.34, 10.20] }},
+    { "type": "Feature", "properties": { "nombre": "Barú", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-75.70, 10.07] }},
+    { "type": "Feature", "properties": { "nombre": "Magangué", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-74.76, 9.10] }},
+    { "type": "Feature", "properties": { "nombre": "Sincelejo", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-75.39, 9.20] }},
+    { "type": "Feature", "properties": { "nombre": "Santiago de Tolú", "tipo": "ciudad" }, "geometry": { "type": "Point", "coordinates": [-75.58, 9.44] }}
+  ]
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados Saber 11</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="app-container">
+
+  <!-- COLUMNA IZQUIERDA -->
+  <section class="article-section">
+    <article>
+
+      <h1>Resultados del examen Saber 11 en el Magdalena</h1>
+      <h2>Una mirada territorial a once años de datos</h2>
+
+      <p>
+        Los resultados de un examen no solo hablan de estudiantes, sino que también permiten explorar, desde otra perspectiva, algunas dinámicas territoriales y educativas. En este caso usamos los datos del examen Saber 11. Aprovechando que esta evaluación estandarizada marca el cierre de la educación media, se convierte en una fuente útil para observar ciertos aspectos del desempeño académico al finalizar esta etapa.
+      </p>
+
+      <h3>¿Qué estamos observando?</h3>
+
+      <p>
+        Como unidad de análisis utilizamos el puntaje promedio de cada municipio. De esta forma es posible pasar del resultado individual a una mirada territorial que permite comparar municipios y seguir su evolución en el tiempo.
+      </p>
+
+      <p>
+        Cada municipio aparece representado por un punto. El tamaño refleja cuántos estudiantes presentaron la prueba ese año y el color funciona como guía visual que indica la posición relativa del puntaje promedio dentro del rango observado. Los tonos cálidos señalan valores más bajos, mientras que los fríos corresponden a los más altos.
+      </p>
+
+      <!-- AQUÍ VA LA LEYENDA -->
+      <figure class="legend-figure">
+        <img src="img/leyenda-colores.png" alt="Leyenda de colores del mapa">
+        <figcaption>
+          Escala de color del puntaje promedio.
+        </figcaption>
+      </figure>
+
+      <h3>Cómo explorar el mapa</h3>
+
+      <p>
+        Para interactuar con la visualización, pasa el cursor sobre un municipio y verás sus datos básicos. Si deseas profundizar, al hacer clic encontrarás detalles como el puntaje mínimo, máximo y la dispersión de los resultados.
+      </p>
+
+      <h3>Limitaciones</h3>
+
+      <p>
+        Como se mencionó al inicio, el promedio es solo un aspecto del desempeño académico y no captura completamente la heterogeneidad interna. Por eso, el mapa está pensado para abrir preguntas más que para ofrecer respuestas definitivas.
+      </p>
+
+      <h3>Referencias</h3>
+
+      <p>
+        Instituto Colombiano para la Evaluación de la Educación (ICFES). (2024).
+        <em>DataICFES: Repositorio de Datos Abiertos. Examen Saber 11</em> [Conjunto de datos].
+        Recuperado de
+        <a href="https://www.icfes.gov.co/web/guest/data-icfes"
+          target="_blank"
+          rel="noopener">
+          DataICFES
+        </a>.
+      </p>
+
+      <p>
+        Departamento Administrativo Nacional de Estadística (DANE). (2026).
+        <em>MGN2018 Integrado con CNPV2018, nivel de Municipio</em>
+        [Shapefile].
+        Recuperado de
+        <a href="https://www.dane.gov.co/files/geoportal-provisional/" target="_blank" rel="noopener">
+          Geoportal DANE
+        </a>.
+      </p>
+
+    </article>
+
+    <footer class="article-footer">
+      <p>
+        Proyecto desarrollado por Miguel Meriño
+      </p>
+      <p>
+      Visualización construida con JavaScript y Leaflet
+      </p>
+      <p>
+        <a href="https://github.com/merino2043" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/merino2043" target="_blank">LinkedIn</a>
+      </p>
+      <p>
+      2026
+      </p>
+    </footer>
+
+  </section>
+
+
+  <!-- COLUMNA DERECHA -->
+  <section class="map-section">
+
+    <div id="map">
+
+      <div class="slider-container">
+        <div class="controls">
+          <button id="prevYear">‹</button>
+          <button id="resetYear">↺</button>
+          <button id="nextYear">›</button>
+        </div>
+
+        <input type="range" id="yearSlider">
+        <div id="yearLabel"></div>
+      </div>
+
+    </div>
+
+  </section>
+
+</div>
+
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+/* layout.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Inter, Arial, sans-serif;
+  background: #f8f9fb;
+}
+
+
+
+
+.app-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  height: 100vh; /* altura total pantalla */
+}
+
+/* COLUMNA ARTÍCULO */
+.article-section {
+  overflow-y: auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d4dadc;
+  /*background-color: #d4dadc;*/
+}
+
+/* COLUMNA MAPA */
+.map-section {
+  position: relative;
+  height: 100vh;
+}
+
+article {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+
+article h1 {
+  font-size: 1.9rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.1rem;
+  color: #4f7da3;
+}
+
+article h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #666666;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+article h3 {
+  margin-top: 2rem;
+  color: #807368;
+}
+
+article p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #2f2f2f;
+}
+
+
+.article-footer {
+  margin-top: 60px;              
+  padding: 24px 40px;            
+  font-size: 0.75rem;            
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.85);
+  background-color: #236a81;
+}
+
+.article-footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.article-footer a:hover {
+  opacity: 0.75;
+}
+
+
+.legend-figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.legend-figure img {
+  max-width: 80%;
+  height: auto;
+}
+
+.legend-figure figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.3rem;
+}
+
+
+/* Scroll minimalista */
+.article-section::-webkit-scrollbar {
+  width: 6px;
+}
+
+.article-section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.article-section::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+.article-section::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/*.article-section:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.12);
+}*/
