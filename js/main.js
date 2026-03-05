@@ -1,4 +1,3 @@
-// main.js
 // Este archivo orquesta la aplicación. Es el único archivo que se carga con <script type="module">.
 // Aquí usamos import para traer módulos que separan responsabilidades.
 
@@ -26,8 +25,6 @@ async function init() {
     years
   } = await loadAllData();
 
-  console.log("GLOBAL_MIN:", GLOBAL_MIN);
-  console.log("GLOBAL_MAX:", GLOBAL_MAX);
 
   // 3) Crear capas
   const municipiosLayer = createMunicipiosLayer(map, municipiosGeo);

@@ -1,10 +1,7 @@
-// layers.js
 // Gestión de capas de municipios y puntos (centroides)
 // Arquitectura:
 // - Tooltip hover (bindTooltip normal)
 // - Tooltip selección independiente (L.tooltip permanente)
-// - Sin modificar permanent dinámicamente
-// - Sin conflictos con slider
 
 /* ======================================================
    Variables de módulo (estado interno)

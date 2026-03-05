@@ -1,4 +1,3 @@
-// labels.js
 // Crea la capa de etiquetas a partir de ciudades.geojson.
 // Usa bindTooltip con className para estilizar diferente departamentos/ciudades.
 

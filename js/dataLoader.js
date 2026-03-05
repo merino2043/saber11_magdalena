@@ -1,8 +1,7 @@
-// dataLoader.js
-// Encapsula la carga de todos los archivos (resultados + geojsons).
+// Este módulo encapsula la carga de todos los archivos (resultados + geojsons).
 // Devuelve un objeto con todo lo necesario para inicializar la app.
 //
-// Notas pedagógicas:
+// Notas:
 // - Usamos async/await para escribir código asíncrono de forma secuencial.
 // - fetch() devuelve una Promise. await pausa la ejecución hasta la respuesta.
 

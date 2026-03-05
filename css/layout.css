@@ -125,3 +125,54 @@ article p {
 /*.article-section:hover::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 0, 0.12);
 }*/
+
+/* ===============================
+   MOBILE LAYOUT
+   =============================== */
+
+@media (max-width: 900px) {
+
+  .app-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    height: auto;
+  }
+
+  .map-section {
+    height: 55vh; /* mapa visible pero no dominante */
+    position: relative;
+  }
+
+  .article-section {
+    height: auto;
+    overflow-y: visible;
+  }
+
+}
+
+
+@media (max-width: 900px) {
+
+  .slider-container {
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+    padding: 10px 12px;
+  }
+
+}
+
+
+@media (max-width: 900px) {
+
+  article {
+    padding: 0 20px;
+  }
+
+  article p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+}
