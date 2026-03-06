@@ -66,6 +66,15 @@ article p {
 }
 
 
+
+article p a {
+  color: #5965cf;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+
 .article-footer {
   margin-top: 60px;              
   padding: 24px 40px;            
