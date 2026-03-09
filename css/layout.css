@@ -14,7 +14,7 @@ html, body {
 .app-container {
   display: grid;
   grid-template-columns: 35% 65%;
-  height: 100vh; /* altura total pantalla */
+  height: 100vh; /* altura total de la pantalla */
 }
 
 /* COLUMNA ARTÍCULO */
